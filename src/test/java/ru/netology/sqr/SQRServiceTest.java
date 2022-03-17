@@ -13,7 +13,7 @@ class SQRServiceTest {
         int expected = 3;
         int actual = sqrService.numberOfSquares(200, 300);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
     }
 
@@ -24,7 +24,7 @@ class SQRServiceTest {
         int expected = 40;
         int actual = sqrService.numberOfSquares(200, 3000);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
     }
 
@@ -35,7 +35,7 @@ class SQRServiceTest {
         int expected = 85;
         int actual = sqrService.numberOfSquares(200, 30_000);
 
-        assertEquals(expected,actual);
+        assertEquals(expected, actual);
 
     }
 }
